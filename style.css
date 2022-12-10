@@ -1,0 +1,74 @@
+h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: teal;
+}
+
+h2 {
+  color:teal;
+}
+
+
+i {
+  color:teal;
+  font-size: large;
+}
+
+.card-white{
+  background-color: #eefeea;
+  text-decoration: #121b28;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  margin: 20px auto;
+  border-radius: 25px;
+  border: 1px solid;
+
+}
+
+
+.img-sq{
+  width: 270px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+.list-inline{
+  padding: 0px;
+}
+
+.btn-blue{
+  color: rgb(91, 90, 90);
+  text-decoration: none;
+
+
+}
+
+a:hover{
+  color: rgb(8, 7, 7);
+}
+
+i:hover{
+  color: black;
+}
+
+.container{
+   width: 700px;
+   margin: 0 auto;
+}
+
+body{
+
+
+  background-color: teal;
+}
+
+@media (max-width: 540px)
+ {.container
+   { width: 300px;;}
+ }
